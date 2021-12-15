@@ -1,0 +1,22 @@
+# openapi2-functions.yaml
+swagger: '2.0'
+info:
+  title: Hannibal Api Gateway
+  description: Hannibaliapi Sisäelinkaupalle
+  version: 1.0.0
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /webstore: 
+    get:
+      summary: hakee tuotteen
+      operationId: getproduct
+      x-google-backend:
+        address: https://us-central1/week-10-fall-1.cloudfunctions.net/hello-world
+      responses:
+        '200':
+          description: 
+          schema:
+            type: string

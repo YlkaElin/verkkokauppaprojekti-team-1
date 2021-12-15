@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "35.232.27.119",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "juukeli",
+				"database": "postgres",
+				"username": "postgres",
+				"password": "JuUk3L169"
+			}
+		]
+	}
+}
